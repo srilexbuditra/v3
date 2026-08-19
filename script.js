@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6282135238350";
 let estimate = {service:"Website Company Profile", total:5000000, feature:"Tidak ada"};
 
 const menuBtn = document.querySelector(".menu-btn");
