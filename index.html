@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Srilex Buditra — Full Stack Developer. Website, aplikasi web, API, database, DevOps dan cloud.">
+  <title>Srilex Buditra — Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#beranda"><span class="brand-mark">&lt;/&gt;</span><span><b>SRILEX <i>BUDITRA</i></b><small>FULL STACK DEVELOPER</small></span></a>
+  <button class="menu-btn" aria-label="Buka menu">☰</button>
+  <nav class="nav">
+    <a href="#beranda">Beranda</a><a href="#tentang">Tentang Saya</a><a href="#layanan">Layanan</a>
+    <a href="#portfolio">Portfolio</a><a href="#harga">Paket & Harga</a><a href="#faq">FAQ</a><a href="#kontak">Kontak</a>
+    <a class="nav-cta" href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
+  </nav>
+</header>
+
+<main id="beranda">
+<section class="hero section">
+  <div class="hero-copy">
+    <span class="eyebrow">FULL STACK DEVELOPER</span>
+    <h1>Solusi Digital Modern<br><strong>untuk Bisnis Anda</strong></h1>
+    <p>Website, aplikasi web, API & sistem informasi custom yang cepat, aman, modern, dan memberikan dampak nyata untuk bisnis Anda.</p>
+    <div class="actions"><a class="btn primary" href="#estimasi">Buat Estimasi Harga</a><a class="btn ghost" href="#portfolio">Lihat Portfolio</a></div>
+    <div class="tech"><span>React</span><span>Next.js</span><span>Node.js</span><span>Python</span><span>MongoDB</span><span>PostgreSQL</span><span>AWS</span></div>
+  </div>
+  <div class="hero-profile">
+    <div class="orbit"></div>
+    <div class="portrait"><img src="assets/profile.png" alt="Foto Srilex Buditra"></div>
+  </div>
+  <div class="hero-side" id="tentang">
+    <h2>Srilex Buditra</h2><h3>Full Stack Developer</h3>
+    <blockquote>“Bukan sekadar Programmer, tetapi Problem Solver dan Creator Solusi.”</blockquote>
+    <ul><li>Frontend Developer</li><li>Backend Developer</li><li>Database Expert</li><li>DevOps & Cloud</li></ul>
+  </div>
+</section>
+
+<section class="quote"><span>“</span> Full Stack. Full Solution. Full Impact. <span>”</span></section>
+
+<section class="section" id="layanan">
+  <div class="section-title"><span></span><h2>Layanan Kami</h2><span></span><p>Solusi digital lengkap untuk kebutuhan Anda</p></div>
+  <div class="grid services">
+    <article><b>▣</b><h3>Website Company Profile</h3><p>Profil bisnis profesional, responsif, dan terpercaya.</p></article>
+    <article><b>&lt;/&gt;</b><h3>Web Application</h3><p>Aplikasi web modern dan interaktif sesuai kebutuhan.</p></article>
+    <article><b>☁</b><h3>REST API / Backend</h3><p>API dan backend yang rapi, aman, dan handal.</p></article>
+    <article><b>▤</b><h3>Sistem Informasi Custom</h3><p>Solusi sistem terintegrasi untuk operasional bisnis.</p></article>
+    <article><b>⚙</b><h3>Database Development</h3><p>Desain, optimasi, backup dan pengelolaan database.</p></article>
+    <article><b>⇧</b><h3>Deployment & Cloud</h3><p>Hosting, VPS, SSL, CI/CD dan layanan cloud.</p></article>
+  </div>
+</section>
+
+<section class="section" id="portfolio">
+  <div class="section-title"><span></span><h2>Portfolio</h2><span></span><p>Contoh proyek dan solusi digital</p></div>
+  <div class="grid portfolio">
+    <article><div class="mock-img">WEBSITE<br>SEKOLAH</div><h3>Website Sekolah</h3><p>Profil sekolah modern dengan sistem informasi terpadu.</p><small>HTML5 · CSS3 · JavaScript</small></article>
+    <article><div class="mock-img">APLIKASI<br>POS</div><h3>Aplikasi POS</h3><p>Sistem kasir dan inventori berbasis web.</p><small>Node.js · MongoDB · React</small></article>
+    <article><div class="mock-img">SISTEM<br>ADMINISTRASI</div><h3>Sistem Administrasi</h3><p>Dashboard data dan pengelolaan informasi.</p><small>Next.js · PostgreSQL · Tailwind</small></article>
+  </div>
+</section>
+
+<section class="section split" id="harga">
+  <div class="panel">
+    <div class="panel-title"><b>▣</b><div><h2>Paket & Harga</h2><p>Pilih paket sesuai kebutuhan Anda</p></div></div>
+    <div class="plans">
+      <article><h3>Starter</h3><strong>Rp 2.500.000</strong><p>✓ Website 5 halaman<br>✓ Responsive<br>✓ Form kontak</p><button onclick="choosePlan('Website Company Profile','2500000')">Pilih Paket</button></article>
+      <article class="featured"><em>POPULER</em><h3>Professional</h3><strong>Rp 5.000.000</strong><p>✓ Fitur lengkap<br>✓ Sistem terintegrasi<br>✓ SEO dasar</p><button onclick="choosePlan('Website / Web Application','5000000')">Pilih Paket</button></article>
+      <article><h3>Business</h3><strong>Rp 10.000.000</strong><p>✓ Custom fitur<br>✓ Integrasi API<br>✓ Support 6 bulan</p><button onclick="choosePlan('Sistem Informasi Custom','10000000')">Pilih Paket</button></article>
+      <article><h3>Custom</h3><strong>Konsultasi</strong><p>✓ Sesuai kebutuhan<br>✓ Solusi terbaik<br>✓ Scope fleksibel</p><button onclick="document.querySelector('#estimasi').scrollIntoView({behavior:'smooth'})">Konsultasi</button></article>
+    </div>
+  </div>
+
+  <div class="panel" id="estimasi">
+    <div class="panel-title"><b>▦</b><div><h2>Formulir Estimasi Harga</h2><p>Isi data proyek untuk mendapatkan estimasi biaya</p></div></div>
+    <form id="estimateForm">
+      <div class="form-grid">
+        <label>Nama Lengkap<input id="name" required placeholder="Masukkan nama lengkap"></label>
+        <label>Nama Perusahaan<input id="company" placeholder="Opsional"></label>
+        <label>Email<input id="email" type="email" required placeholder="nama@email.com"></label>
+        <label>WhatsApp<input id="wa" placeholder="08xxxxxxxxxx"></label>
+        <label>Jenis Proyek<select id="project"><option>Website Company Profile</option><option>Web Application</option><option>REST API / Backend</option><option>Sistem Informasi Custom</option><option>Database Development</option></select></label>
+        <label>Fitur Tambahan<select id="feature"><option value="0">Tidak ada</option><option value="500000">Form & integrasi dasar (+Rp 500.000)</option><option value="1000000">Dashboard / admin (+Rp 1.000.000)</option><option value="2500000">Integrasi API kompleks (+Rp 2.500.000)</option></select></label>
+      </div>
+      <label>Deskripsi Kebutuhan<textarea id="desc" rows="3" placeholder="Jelaskan kebutuhan proyek secara singkat..."></textarea></label>
+      <button class="btn primary full" type="submit">Hitung Estimasi</button>
+    </form>
+  </div>
+</section>
+
+<section class="estimate-result" id="result" hidden>
+  <div><small>ESTIMASI HARGA</small><h2 id="total">Rp 5.000.000</h2><p>Layanan: <b id="selectedService">Website Company Profile</b></p></div>
+  <div class="result-actions"><button class="wa-btn" onclick="sendWhatsApp()">Kirim ke WhatsApp</button><button class="pdf-btn" onclick="printEstimate()">Cetak / Simpan PDF</button></div>
+</section>
+
+<section class="section process">
+  <div class="section-title"><span></span><h2>Alur Pemesanan</h2><span></span><p>Proses mudah dan transparan</p></div>
+  <div class="steps"><div><b>01</b><span>Konsultasi</span></div><i>→</i><div><b>02</b><span>Analisis</span></div><i>→</i><div><b>03</b><span>Penawaran</span></div><i>→</i><div><b>04</b><span>DP</span></div><i>→</i><div><b>05</b><span>Development</span></div><i>→</i><div><b>06</b><span>Testing</span></div><i>→</i><div><b>07</b><span>Deployment</span></div><i>→</i><div><b>08</b><span>Serah Terima</span></div></div>
+</section>
+
+<section class="section lower" id="faq">
+  <div class="panel faq"><div class="section-title left"><h2>FAQ</h2></div>
+    <details><summary>Berapa lama pengerjaan proyek?</summary><p>Umumnya 1–8 minggu, tergantung scope dan kompleksitas.</p></details>
+    <details><summary>Apakah bisa custom fitur?</summary><p>Bisa. Fitur dapat disesuaikan melalui konsultasi dan analisis kebutuhan.</p></details>
+    <details><summary>Apakah mendapatkan source code?</summary><p>Ketentuan source code mengikuti paket dan kesepakatan proyek.</p></details>
+    <details><summary>Apakah termasuk hosting?</summary><p>Hosting dan deployment dapat ditambahkan sesuai kebutuhan.</p></details>
+  </div>
+  <div class="panel testimonial"><div class="stars">★★★★★</div><blockquote>“Hasil pekerjaan sangat profesional, komunikasi cepat, dan solusi yang diberikan tepat sasaran.”</blockquote><b>— Klien Setia</b></div>
+</section>
+
+<section class="cta" id="kontak"><div><h2>Siap Wujudkan Ide Anda Menjadi Solusi Digital?</h2><p>Konsultasikan proyek Anda dan dapatkan estimasi awal.</p></div><a class="btn primary" href="https://wa.me/6281234567890" target="_blank">Hubungi Saya Sekarang</a></section>
+</main>
+
+<footer><div class="footer-brand"><span class="brand-mark">&lt;/&gt;</span><div><b>SRILEX <i>BUDITRA</i></b><small>FULL STACK DEVELOPER</small></div></div><div class="footer-links"><a href="#beranda">Beranda</a><a href="#tentang">Tentang Saya</a><a href="#layanan">Layanan</a><a href="#portfolio">Portfolio</a><a href="#harga">Paket & Harga</a><a href="#faq">FAQ</a></div><p>© 2026 Srilex Buditra. Full Stack. Full Solution. Full Impact.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
